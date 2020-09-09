@@ -1,9 +1,17 @@
-.mack-404-sec{
-	padding: 150px 0;
+.mack-page-con-sec{
+	padding: 300px 0;
 }
-.mack-404-sec-inr{
+.mack-page-con-sec-inr{
 	text-align: center;
 }
-.mack-404-sec-inr h1{
+.mack-page-con-sec-inr strong{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 30px;
+	line-height: 1;
+	font-weight: 700;
 	margin-bottom: 30px;
+}
+.mack-page-con-sec-inr h3{
+	margin: 0;
 }
