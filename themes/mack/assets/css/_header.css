@@ -119,7 +119,8 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
     left: 0;
     min-width: 190px;
     padding: 10px 0 10px 10px;
-    background: #d8363c;
+    background: url('../images/sub-menu-bg.png');
+    background-repeat: no-repeat!important;
     transform: scale3d(1,0,1);
     -ms-transform: scale3d(1,0,1);
     -webkit-transform: scale3d(1,0,1);
@@ -130,6 +131,7 @@ nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
     -ms-transform-origin: top;
     -webkit-transform-origin: top;
     opacity: 0;
+    z-index: 11;
 }
 nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu{
 	transform: scale3d(1,1,1);
@@ -148,4 +150,7 @@ nav.main-nav  ul.sub-menu li a{
 	transition: all 0.5s;
 	-webkit-transition: all 0.5s;
 	-ms-transition: all 0.5s;
+}
+nav.main-nav  ul.sub-menu li a:hover{
+	color: #212121;
 }

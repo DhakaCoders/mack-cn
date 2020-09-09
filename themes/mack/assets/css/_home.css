@@ -82,26 +82,18 @@
 	color: #fff;
 }
 
-
-
-
-/*.default-page-con ul li,
-ul li{
-	padding: 5px 10px 5px 20px;
-	position: relative;
+.mack-home-des-sec-inr ul{
+	padding: 0;
+	margin: 0;
+	padding-left: 20px;
 }
-.default-page-con ul li::before,
-ul li::before {
-	content: "";
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform: translateY(-50%);
-	width: 6px;
-	height: 6px;
-	background: #ffffff;
-	border-radius: 100%;
-}*/
+.mack-home-des-sec-inr ul li{
+	padding-bottom: 20px;
+}
+
+
+
+
 
 
 
@@ -145,6 +137,7 @@ ul li::before {
 	color: #212121;
 	background: #ffffff;
 	border: 1px solid #ffffff;
+	border-right: 1px solid #e5e5e5;
 }
 
 .mack-contact-sec-inr .form .inputField textarea{
@@ -156,6 +149,7 @@ ul li::before {
 	resize: none;
 	background: #ffffff;
 	border: 1px solid #ffffff;
+	border-right: 1px solid #e5e5e5;
 }
 
 .mack-contact-sec-inr .form .cnt-btn input[type=submit]{
