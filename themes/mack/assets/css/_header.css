@@ -1,11 +1,99 @@
+.header{
+	padding: 25px 0 0;
+}
+.hdr-lft{
+	float: left;
+}
+.hdr-rgt{
+	float: right;
+	text-align: right;
+}
+
+.hdr-contacts-menu ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	padding: 0 18px;
+}
+.hdr-contacts-menu ul li:first-child{
+	padding-left: 0;
+}
+.hdr-contacts-menu ul li:last-child{
+	padding-right: 0;
+}
+.hdr-contacts-menu ul li a{
+	color: #fff;
+	font-size: 15px;
+	font-weight: 300;
+	padding-left: 15px;
+	position: relative;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+}
+.hdr-contacts-menu ul li a i{
+	position: absolute;
+	top: -4px;
+	left: 0;
+}
+.hdr-contacts-menu ul li a.mail{
+	padding-left: 22px;
+}
+.hdr-contacts-menu ul li a.mail i{
+	width: 14px;
+	height: 9px;
+}
+.hdr-contacts-menu ul li a.tel i{
+	width: 7px;
+	height: 10px;
+}
+.hdr-contacts-menu ul li a:hover{
+	color: #d82027;
+}
+
+nav.main-nav{
+	margin-top: 50px;
+}
 nav.main-nav ul{
 
 }
 nav.main-nav ul li{
-	
+	display: inline-block;
+	vertical-align: baseline;
+	padding: 0 15px;
+	position: relative;
+	padding-bottom: 20px;
+}
+nav.main-nav ul li:before{
+	content: "";
+	position: absolute;
+	top: 30%;
+	left: 0;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	width: 1px;
+	height: 8px;
+	background: #c62026;
+}
+nav.main-nav ul li:first-child:before{
+	content: none;
+}
+nav.main-nav ul li:first-child{
+	padding-left: 0;
+}
+nav.main-nav ul li:last-child{
+	padding-right: 0;
 }
 nav.main-nav ul li a{
-	
+	font-size: 22px;
+	color: #fff;
+	font-weight: 300;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+}
+nav.main-nav ul li a:hover{
+	color: #952024;
 }
 nav.main-nav > ul{
 
@@ -26,5 +114,38 @@ nav.main-nav > ul > li.menu-item-has-children > a{
 }
 
 nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
-	
+	position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 190px;
+    padding: 10px 0 10px 10px;
+    background: #d8363c;
+    transform: scale3d(1,0,1);
+    -ms-transform: scale3d(1,0,1);
+    -webkit-transform: scale3d(1,0,1);
+    transition: all .5s;
+    -ms-transition: all .5s;
+    -webkit-transition: all .5s;
+    transform-origin: top;
+    -ms-transform-origin: top;
+    -webkit-transform-origin: top;
+    opacity: 0;
+}
+nav.main-nav > ul > li.menu-item-has-children:hover ul.sub-menu{
+	transform: scale3d(1,1,1);
+    -ms-transform: scale3d(1,1,1);
+    -webkit-transform: scale3d(1,1,1);
+    opacity: 1;
+}
+nav.main-nav  ul.sub-menu li{
+	padding: 0 0 0 0;
+	display: block;
+	text-align: left;
+}
+nav.main-nav  ul.sub-menu li a{
+	font-size: 18px;
+	font-weight: 300;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-ms-transition: all 0.5s;
 }

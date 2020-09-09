@@ -1,0 +1,22 @@
+
+.mack-bsp-img-sec{
+	margin-bottom: 980px;
+}
+
+.mack-bsp-small-img{
+	margin-top: 20px;
+}
+.mack-bsp-small-img ul{
+	margin-left: -8px;
+	margin-right: -8px;
+}
+.mack-bsp-small-img ul li{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.bsp-ctlr .mack-home-des-sec {
+    padding-bottom: 20px;
+}
