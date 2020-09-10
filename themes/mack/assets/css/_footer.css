@@ -32,9 +32,11 @@
 .ftr-main-menu ul li:before{
 	content: "";
 	position: absolute;
-	top: 60%;
+	top: 45%;
 	left: 0;
 	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
 	width: 1px;
 	height: 6px;
 	background: #bebebe;
@@ -43,6 +45,7 @@
 	content: none;
 }
 .ftr-main-menu ul li a{
+	text-decoration: none;
 	font-size: 15px;
 	color: #ebebeb;
 	transition: all 0.5s;

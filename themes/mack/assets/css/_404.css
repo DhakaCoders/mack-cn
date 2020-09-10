@@ -1,5 +1,5 @@
 .mack-page-con-sec{
-	padding: 300px 0;
+	padding: 200px 0;
 }
 .mack-page-con-sec-inr{
 	text-align: center;
@@ -7,10 +7,10 @@
 .mack-page-con-sec-inr strong{
 	display: inline-block;
 	vertical-align: baseline;
-	font-size: 30px;
+	font-size: 90px;
 	line-height: 1;
 	font-weight: 700;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .mack-page-con-sec-inr h3{
 	margin: 0;

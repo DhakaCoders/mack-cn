@@ -1,5 +1,9 @@
 .header{
 	padding: 25px 0 0;
+	border-bottom: 1px solid red;
+}
+.home .header{
+	border-bottom: none;
 }
 .hdr-lft{
 	float: left;
@@ -21,6 +25,7 @@
 	padding-right: 0;
 }
 .hdr-contacts-menu ul li a{
+	text-decoration: none;
 	color: #fff;
 	font-size: 15px;
 	font-weight: 300;
@@ -85,6 +90,7 @@ nav.main-nav ul li:last-child{
 	padding-right: 0;
 }
 nav.main-nav ul li a{
+	text-decoration: none;
 	font-size: 22px;
 	color: #fff;
 	font-weight: 300;
@@ -92,6 +98,7 @@ nav.main-nav ul li a{
 	-webkit-transition: all 0.3s;
 	-ms-transition: all 0.3s;
 }
+nav.main-nav ul li.current-menu-item a,
 nav.main-nav ul li a:hover{
 	color: #952024;
 }

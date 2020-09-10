@@ -169,17 +169,14 @@ img{
 
 
 
-/*ul{
+ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	padding-left: 35px;
-	padding-bottom: 0;
 	line-height: 24px;
-	font-weight: 600;
 }
 ul li {
-	padding: 10px 0 25px 40px;
+	padding: 5px 0 10px 20px;
 	position: relative;
 	line-height: 24px;
 }
@@ -189,18 +186,20 @@ ul li::before {
 	content: "";
 	position: absolute;
 	left: 0;
-	top: 13px;
-	background: url(../images/list-icon.svg);
-	background-repeat: no-repeat;
-	background-size: 100% auto;
-	width: 26px;
-	height: 18px;
+	top: 42%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	width: 6px;
+	height: 6px;
+	background: #fff;
+	border-radius: 100%;
 }
 
 ol {
-	padding: 10px 0 0 30px;
+	padding: 0;
+	margin: 0;
 	line-height: 24px;
-	font-weight: 600;
 	list-style: none;
 	counter-reset: my-awesome-counter;
 	-ms-counter-reset: my-awesome-counter;
@@ -210,24 +209,22 @@ ol li {
 	counter-increment: my-awesome-counter;
 	-ms-counter-increment: my-awesome-counter;
 	-webkit-counter-increment: my-awesome-counter;
-	padding-bottom: 27px;
+	padding-bottom: 10px;
 	line-height: 24px;
-	padding-left: 30px;
+	padding-left: 20px;
 	position: relative;
 }
 ol li::before {
 	content: counter(my-awesome-counter) ".";
-	color: #F6C042;
-	font-weight: 800;
+	color: #fff;
 	text-align: center;
-	font-size: 16px;
-	line-height: 16px;
-	text-align: center;
-	padding: 0 5.5px;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 0 0px;
 	position: absolute;
 	left: 0;
 	top: 5px;
-}*/
+}
 
 ul.reset-list,
 ol.reset-list,

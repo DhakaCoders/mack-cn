@@ -1,40 +1,40 @@
 Desktop-------->
 --------------------------
-1. https://prnt.sc/uetoxf
+1. https://prnt.sc/uetoxf---done
 	page ar header a border missing, ata amar kache bujay niye jaw abar
 
-2. https://prnt.sc/uetrr1
+2. https://prnt.sc/uetrr1-----done
 	common ul and ol ar design aikhane kore rakho , kono class dhore na amnitei
 
-3. https://prnt.sc/uetusj
+3. https://prnt.sc/uetusj-----done
 	focus korle akta border color daw, button ar color ta dite paro
 
-4. https://prnt.sc/uetvrm
+4. https://prnt.sc/uetvrm----done
 	a tag ar akta common design lagbe, a tag use korle amon hobe, a ar design ta comma diye kore rakhte paro aikhane
 
-5. https://prnt.sc/ueu2rc
+5. https://prnt.sc/ueu2rc---done
 	ai divider gulo right a besi chepe geche, center a hoyni
 
-6. https://prnt.sc/ueu3e2
+6. https://prnt.sc/ueu3e2-----done
 	entity code hobe
 
-7. https://prnt.sc/ueu5pf
+7. https://prnt.sc/ueu5pf----done
 	typo te ai gap ta aro besi hobe mone hoy
 
 
-8. https://prnt.sc/ueu8zi
+8. https://prnt.sc/ueu8zi-----done
 	font size amon daw
 
-9. https://prnt.sc/ueu9dn
+9. https://prnt.sc/ueu9dn---done
 	ai gap ta aktu kom hobe
 
-10. https://prnt.sc/ueu9nt
+10. https://prnt.sc/ueu9nt---done
 	atar font size aktu barate hobe
 
-11. https://prnt.sc/ueuabe
+11. https://prnt.sc/ueuabe---done
 	200px rakho
 
-12. https://prnt.sc/ueuc68
+12. https://prnt.sc/ueuc68---done
 	menu te akta active color lagbe, 
 	'li.current-menu-item a' amon hobe active ar jonno
 
