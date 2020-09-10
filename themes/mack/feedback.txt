@@ -1,0 +1,36 @@
+Desktop-------->
+--------------------------
+1. https://prnt.sc/uetoxf
+	page ar header a border missing, ata amar kache bujay niye jaw abar
+
+2. https://prnt.sc/uetrr1
+	common ul and ol ar design aikhane kore rakho , kono class dhore na amnitei
+
+3. https://prnt.sc/uetusj
+	focus korle akta border color daw, button ar color ta dite paro
+
+4. https://prnt.sc/uetvrm
+	a tag ar akta common design lagbe, a tag use korle amon hobe, a ar design ta comma diye kore rakhte paro aikhane
+
+5. https://prnt.sc/ueu2rc
+	ai divider gulo right a besi chepe geche, center a hoyni
+
+6. https://prnt.sc/ueu3e2
+	entity code hobe
+
+7. https://prnt.sc/ueu5pf
+	typo te ai gap ta aro besi hobe mone hoy
+
+
+8. https://prnt.sc/ueu8zi
+	font size amon daw
+
+9. https://prnt.sc/ueu9dn
+	ai gap ta aktu kom hobe
+
+10. https://prnt.sc/ueu9nt
+	atar font size aktu barate hobe
+
+11. https://prnt.sc/ueuabe
+	200px rakho
+
