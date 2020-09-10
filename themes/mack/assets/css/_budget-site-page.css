@@ -20,6 +20,9 @@
 .bsp-ctlr .page-des-sec {
     padding-bottom: 20px;
 }
+.page-con-cntlr{
+	min-height: 500px;
+}
 
 @media(max-width: 575px){
 	.bsp-ctlr .page-des-sec {

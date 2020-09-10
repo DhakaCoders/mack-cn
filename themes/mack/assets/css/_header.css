@@ -183,8 +183,13 @@ nav.main-nav  ul.sub-menu li a:hover{
 	.show-sm{
 		display: block!important;
 	}
+	.header {
+	    padding: 0px 0 0;
+	}
 	.hdr-lft{
 		float: initial;
+		background: #303030;
+		padding: 25px 0 20px;
 	}
 	.logo{
 		text-align: center;

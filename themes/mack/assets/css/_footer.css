@@ -22,6 +22,7 @@
 	padding-left: 6px;
 	padding-right: 6px;
 	position: relative;
+	line-height: 1;
 }
 .ftr-main-menu ul li:first-child{
 	padding-left: 0;
@@ -106,6 +107,9 @@
 	}
 	.xs-ftr-mail strong{
 		top: 25px;
+	}
+	.ftr-copywrite-inr{
+		padding-left: 20px;
 	}
 	
 }

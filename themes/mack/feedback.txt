@@ -40,19 +40,19 @@ Desktop-------->
 
 
 Responsive-------->
-1. https://prnt.sc/uf1tox
+1. https://prnt.sc/uf1tox---done
 	logo ar niche ai color ar akta bg hobe
 
-2. https://prnt.sc/uf1ujg
+2. https://prnt.sc/uf1ujg---done
 	top a gap kom and bottom a gap besi mone hosche, same rakho
 
-3. https://prnt.sc/uf1vqe
+3. https://prnt.sc/uf1vqe----done
 	click korle # pass hosche, prevendefault lagbe js a
 
-4. https://prnt.sc/uf1y49
+4. https://prnt.sc/uf1y49---done
 	desktop thakei typo te line-height barate hobe ,  bcoz line brak hole lege jay
 
-5. https://prnt.sc/uf1zwy
+5. https://prnt.sc/uf1zwy----done
 	line-height 1 daw
 	then border sundor kore center a bosate hobe
 
@@ -60,17 +60,17 @@ Responsive-------->
 	https://prnt.sc/uf224r
 	text gulo ak line a nai, upore niche ache
 
-7. https://prnt.sc/uf24rm
+7. https://prnt.sc/uf24rm---done
 	aikhane r akta class add koro , .page-con-cntlr
 	then ai class ta dhore min-height daw 500px;
 
-8. https://prnt.sc/uf2688
+8. https://prnt.sc/uf2688----done
 	body ar font-size 575px a 17px daw
 
-9. https://prnt.sc/uf279j
+9. https://prnt.sc/uf279j----done
 	border koi?
 
-10. https://prnt.sc/uf285r
+10. https://prnt.sc/uf285r---done
 	left a gap missing 
 
 

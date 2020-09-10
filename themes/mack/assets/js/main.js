@@ -152,9 +152,11 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 if (windowWidth <= 767) {
   $('.nav-opener').on('click', function(e){
+    e.preventDefault();
     $('.xs-menu').slideToggle(300);
   });
   $('li.menu-item-has-children a').on('click', function(e){
+    e.preventDefault();
     $('.sub-menu').slideToggle(300);
   });
 }
