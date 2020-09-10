@@ -38,3 +38,39 @@ Desktop-------->
 	menu te akta active color lagbe, 
 	'li.current-menu-item a' amon hobe active ar jonno
 
+
+Responsive-------->
+1. https://prnt.sc/uf1tox
+	logo ar niche ai color ar akta bg hobe
+
+2. https://prnt.sc/uf1ujg
+	top a gap kom and bottom a gap besi mone hosche, same rakho
+
+3. https://prnt.sc/uf1vqe
+	click korle # pass hosche, prevendefault lagbe js a
+
+4. https://prnt.sc/uf1y49
+	desktop thakei typo te line-height barate hobe ,  bcoz line brak hole lege jay
+
+5. https://prnt.sc/uf1zwy
+	line-height 1 daw
+	then border sundor kore center a bosate hobe
+
+6. https://prnt.sc/uf21iy
+	https://prnt.sc/uf224r
+	text gulo ak line a nai, upore niche ache
+
+7. https://prnt.sc/uf24rm
+	aikhane r akta class add koro , .page-con-cntlr
+	then ai class ta dhore min-height daw 500px;
+
+8. https://prnt.sc/uf2688
+	body ar font-size 575px a 17px daw
+
+9. https://prnt.sc/uf279j
+	border koi?
+
+10. https://prnt.sc/uf285r
+	left a gap missing 
+
+
