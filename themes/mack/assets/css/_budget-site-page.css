@@ -20,3 +20,9 @@
 .bsp-ctlr .page-des-sec {
     padding-bottom: 20px;
 }
+
+@media(max-width: 575px){
+	.bsp-ctlr .page-des-sec {
+	    padding-bottom: 15px;
+	}
+}

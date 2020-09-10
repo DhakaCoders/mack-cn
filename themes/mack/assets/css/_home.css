@@ -262,6 +262,15 @@ a{
 	nav.main-nav ul li a{
 		font-size: 20px;
 	}
+	.breadcrumb-sec {
+	    padding: 10px 0 25px;
+	}
+	.mack-home-des-sec {
+	    padding-bottom: 100px;
+	}
+	.mack-contact-sec {
+	    margin-bottom: 380px;
+	}
 	
 }
 
@@ -272,6 +281,15 @@ a{
 	.show-sm{
 		display: block!important;
 	}
+	.mack-home-des-sec {
+	    padding-bottom: 80px;
+	}
+	.mack-contact-sec {
+	    margin-bottom: 300px;
+	}
+	.mack-contact-sec-inr h1 {
+	    margin-bottom: 15px;
+	}
 }
 
 @media(max-width: 575px){
@@ -281,14 +299,35 @@ a{
 	.show-xs{
 		display: block!important;
 	}
+	.breadcrumb-sec {
+	    padding: 10px 0 15px;
+	}
+	.mack-home-des-sec {
+	    padding-bottom: 70px;
+	}
+	.mack-contact-sec {
+	    margin-bottom: 250px;
+	}
+	.mack-home-des-sec-inr p, .page-des-sec-inr p {
+	    margin-bottom: 15px;
+	}
 
 }
 
 @media(max-width: 479px){
-
+	.mack-contact-sec {
+	    margin-bottom: 200px;
+	}
+	.mack-contact-sec-inr .form .inputFields-row.diveder2 {
+	    margin-left: 0px;
+	    margin-right: 0px;
+	}
+	.mack-contact-sec-inr .form .diveder2 .inputField {
+	    float: left;
+	    width: 100%;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	}
 
 }
 
-@media(max-width: 359px){
-
-}

@@ -65,3 +65,66 @@
 	color: #6f6f6f;
 	font-weight: 300;
 }
+
+
+
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	.ftr-logo{
+		float: initial;
+		margin-bottom: 20px;
+	}
+	.xs-ftr-contact-info{
+		position: relative;
+	}
+	.xs-ftr-tel a,
+	.xs-ftr-mail a{
+		text-decoration: none;
+		color: #fff;
+		font-size: 19px;
+		text-transform: uppercase;
+		font-weight: 300;
+		padding-left: 120px;
+		position: relative;
+	}
+	.xs-ftr-tel strong,
+	.xs-ftr-mail strong{
+		position: absolute;
+		left: 0;
+		top: 0;
+		font-size: 19px;
+		font-weight: 300;
+		line-height: 1;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.xs-ftr-mail strong{
+		top: 25px;
+	}
+	
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	
+
+}
+
+@media(max-width: 479px){
+	.xs-ftr-tel a, .xs-ftr-mail a {
+	    font-size: 16px;;
+	}
+
+}
+

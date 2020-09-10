@@ -161,3 +161,229 @@ nav.main-nav  ul.sub-menu li a{
 nav.main-nav  ul.sub-menu li a:hover{
 	color: #212121;
 }
+
+
+
+
+@media(max-width: 991px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	.hdr-lft{
+		float: initial;
+	}
+	.logo{
+		text-align: center;
+	}
+	.xs-nav-menu-wrp{
+		background: #212121;
+	    padding: 25px 0 3px 189px;
+	    position: relative;
+	}
+	.xs-contact-info{
+		float: left;
+	    position: absolute;
+	    left: 0;
+	    top: 24px;
+	    bottom: 0;
+	}
+	.xs-contact-info a{
+		width: 60px;
+	    height: 54px;
+	    background: #303030;
+	    display: block;
+	    text-align: center;
+	    text-decoration: none;
+	    position: relative;
+	    margin-right: 3px;
+	    float: left;
+	}
+	.xs-contact-info a i{
+		position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	    -webkit-transform: translate(-50%,-50%);
+	}
+	.nav-opener{
+		cursor: pointer;
+	    float: right;
+	    z-index: 1;
+	    background: #d82027;
+	    padding: 12px 15px 12px 50px;
+	    height: 54px;
+	    width: 100%;
+	}
+	.nav-opener-btn{
+		position: relative;
+	    width: 35px;
+	    height: 25px;
+	    float: right;
+	    margin-top: 1px;
+	}
+	.nav-opener-btn span{
+		display: block;
+	    background: #fff;
+	    height: 6px;
+	    transform: rotate(0deg);
+	    -o-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	    -webkit-transform: rotate(0deg);
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width: 100%;
+	}
+	.nav-opener-btn span:nth-child(2){
+		top: 10px;
+	}
+	.nav-opener-btn span:nth-child(3){
+		top: 20px;
+	}
+	.nav-opener strong{
+		font-size: 39px;
+	    line-height: 27px;
+	    color: #fff;
+	    font-weight: 400;
+	    display: inline-block;
+	    vertical-align: baseline;
+	}
+	.xs-menu{
+		position: absolute;
+	    top: 100%;
+	    left: 0;
+	    right: 0;
+	    background-color: #d82027;
+	    padding: 18px 15px;
+	    z-index: 1000;
+	    text-align: center;
+	    display: none;
+	}
+	.xs-menu > ul{
+		list-style: none;
+	    margin: 0;
+	    padding: 0;
+	}
+	.xs-menu > ul > li{
+		font-size: 39px;
+	    line-height: 34px;
+	    padding: 15px 0;
+	}
+	.xs-menu > ul > li > a{
+		color: #fff;
+	    font-weight: 400;
+	    display: inline-block;
+	    vertical-align: baseline;
+	    text-decoration: none;
+	    text-transform: uppercase;
+	}
+	.xs-menu > ul > li.menu-item-has-children ul.sub-menu{
+		display: none;
+		padding-top: 15px;
+	}
+	.xs-menu > ul > li.menu-item-has-children ul.sub-menu li{
+		font-size: 30px;
+		line-height: 34px;
+	    padding: 15px 0;
+	}
+	.xs-menu > ul > li.menu-item-has-children ul.sub-menu li a{
+		color: #fff;
+		text-decoration: none;
+	}
+	
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	.nav-opener{
+		padding: 12px 15px 12px 40px;
+	}
+	.nav-opener strong{
+		font-size: 32px;
+    	line-height: 25px;
+	}
+	.xs-menu > ul > li{
+		font-size: 32px;
+	    line-height: 27px;
+	}
+	.xs-menu > ul > li.menu-item-has-children ul.sub-menu li{
+		font-size: 28px;
+		line-height: 27px;
+	}
+
+}
+
+@media(max-width: 479px){
+	.xs-nav-menu-wrp {
+	    padding: 25px 0 3px 160px;
+	}
+	.xs-contact-info a{
+		width: 50px;
+    	height: 46px;
+	}
+	.nav-opener {
+	    padding: 10px 15px 10px 20px;
+	    height: 46px;
+	}
+	.nav-opener strong {
+	    font-size: 25px;
+	    line-height: 25px;
+	}
+	.xs-menu > ul > li{
+		font-size: 25px;
+	    line-height: 22px;
+	}
+	.xs-menu > ul > li.menu-item-has-children ul.sub-menu li{
+		font-size: 22px;
+		line-height: 22px;
+	}
+
+
+}
+
+@media(max-width: 359px){
+	.nav-opener {
+	    padding: 10px 15px 10px 10px;
+	}
+	.nav-opener-btn span{
+		height: 3px;
+	}
+	.nav-opener-btn span:nth-child(2) {
+	    top: 8px;
+	}
+	.nav-opener-btn span:nth-child(3) {
+	    top: 16px;
+	}
+	.nav-opener strong {
+	    font-size: 22px;
+	    line-height: 22px;
+	}
+	.xs-menu > ul > li{
+		font-size: 22px;
+	    line-height: 22px;
+	}
+	.xs-menu > ul > li.menu-item-has-children ul.sub-menu li{
+		font-size: 20px;
+		line-height: 20px;
+	}
+}

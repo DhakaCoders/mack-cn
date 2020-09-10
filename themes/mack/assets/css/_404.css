@@ -15,3 +15,37 @@
 .mack-page-con-sec-inr h3{
 	margin: 0;
 }
+
+@media(max-width: 1199px){
+	.mack-page-con-sec {
+	    padding: 180px 0;
+	}
+	.mack-page-con-sec-inr strong{
+		font-size: 80px;
+	}
+}
+@media(max-width: 991px){
+	.mack-page-con-sec {
+	    padding: 150px 0;
+	}
+	.mack-page-con-sec-inr strong{
+		font-size: 70px;
+	}
+}
+@media(max-width: 767px){
+	.mack-page-con-sec {
+	    padding: 120px 0;
+	}
+	.mack-page-con-sec-inr strong{
+		font-size: 60px;
+	}
+}
+@media(max-width: 575px){
+	.mack-page-con-sec {
+	    padding: 100px 0;
+	}
+	.mack-page-con-sec-inr strong{
+		font-size: 50px;
+		margin-bottom: 15px;
+	}
+}
