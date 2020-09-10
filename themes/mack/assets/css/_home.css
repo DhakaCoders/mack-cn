@@ -31,7 +31,7 @@
 	padding: 0 8px;
 	position: relative;
 }
-.breadcrumb-sec-inr ul li:before{
+.breadcrumb-sec-inr ul li:after{
 	content: ">";
 	position: absolute;
 	width: 5px;
@@ -43,7 +43,7 @@
 	-ms-transform: translate(-50%,50%);
 	font-size: 12px;
 }
-.breadcrumb-sec-inr ul li:first-child:before{
+.breadcrumb-sec-inr ul li:first-child:after{
 	content: none;
 }
 .breadcrumb-sec-inr ul li:first-child{
@@ -66,20 +66,26 @@
 .mack-home-des-sec{
 	padding-bottom: 170px;
 }
-.mack-home-des-sec-inr h1{
+.mack-home-des-sec-inr h1,
+.page-des-sec-inr h1{
 	margin-bottom: 15px;
 }
-.mack-home-des-sec-inr p{
+.mack-home-des-sec-inr p,
+.page-des-sec-inr p{
 	margin-bottom: 20px;
 }
-.mack-home-des-sec-inr p strong{
+.mack-home-des-sec-inr p strong,
+.page-des-sec-inr p strong{
 	font-weight: 700;
 }
-.mack-home-des-sec-inr p a,a{
+.mack-home-des-sec-inr p a,
+.page-des-sec-inr p a,
+a{
 	color: #d82027;
 	text-decoration: underline;
 }
-.mack-home-des-sec-inr p a:hover{
+.mack-home-des-sec-inr p a:hover,
+.page-des-sec-inr p a:hover{
 	color: #fff;
 }
 
@@ -232,4 +238,57 @@
 .mack-contact-sec-inr .form .inputField textarea:-moz-placeholder { /* Firefox 18- */
   color: #212121;
   opacity: 1;
+}
+
+
+
+
+}
+
+@media(max-width: 1199px){
+	.mack-home-des-sec {
+	    padding-bottom: 140px;
+	}
+	.mack-contact-sec {
+	    margin-bottom: 480px;
+	}
+}
+
+@media(max-width: 991px){
+	nav.main-nav ul li {
+	    padding: 0 12px;
+	    padding-bottom: 20px;
+	}
+	nav.main-nav ul li a{
+		font-size: 20px;
+	}
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
 }
