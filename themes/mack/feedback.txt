@@ -34,3 +34,7 @@ Desktop-------->
 11. https://prnt.sc/ueuabe
 	200px rakho
 
+12. https://prnt.sc/ueuc68
+	menu te akta active color lagbe, 
+	'li.current-menu-item a' amon hobe active ar jonno
+
